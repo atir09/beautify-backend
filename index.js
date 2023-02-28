@@ -37,7 +37,7 @@ app.post("/authenticate", authenticate, (req, res) => {
 
 connectionDB().then(()=>{
     app.listen(process.env.port,  () => {
-        console.log("Server is On")
+        console.log("Server is On!")
     })
 })
 
